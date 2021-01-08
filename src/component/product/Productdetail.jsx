@@ -38,12 +38,7 @@ class Productdetail extends Component {
                   <div className="col-4">
                     <img
                       style={{
-                        marginTop: 5 + "px",
-                        marginLeft: 5 + "px",
-                        marginRight: 5 + "px",
                         float: "left",
-                        width: 40 + "px",
-                        height: 32 + "px",
                       }}
                       src={location}
                       alt=""
@@ -75,12 +70,7 @@ class Productdetail extends Component {
                   <div className="col-4">
                     <img
                       style={{
-                        marginTop: 5 + "px",
-                        marginLeft: 5 + "px",
-                        marginRight: 5 + "px",
                         float: "left",
-                        width: 40 + "px",
-                        height: 32 + "px",
                       }}
                       src={cal_brown}
                       alt=""
@@ -113,12 +103,7 @@ class Productdetail extends Component {
                   <div className="col-4">
                     <img
                       style={{
-                        marginTop: 5 + "px",
-                        marginLeft: 5 + "px",
-                        marginRight: 5 + "px",
                         float: "left",
-                        width: 40 + "px",
-                        height: 32 + "px",
                       }}
                       src={star}
                       alt=""
@@ -169,7 +154,7 @@ class Productdetail extends Component {
                 fontSize: 18 + "px",
                 float: "right",
                 display: "flex",
-                flexDirection: "row"
+                flexDirection: "row",
               }}
             >
               <li className="nav-item">
@@ -203,14 +188,14 @@ class Productdetail extends Component {
           >
             Booking Details
           </label>
-          <p style={{ fontSize: 18 + "px", fontFamily: "Poppins" }}>
+          <p style={{ fontSize: 18 + "px" }}>
             Collections of the most beautiful places, experiences and unsual
             housing worldwide
           </p>
           <div
             className="card"
             style={{
-              height: 131 + "px",
+              height: "auto",
               marginBottom: 30 + "px",
               borderRadius: 10 + "px",
               fontFamily: "Poppins",
@@ -221,7 +206,6 @@ class Productdetail extends Component {
               style={{
                 fontWeight: "bold",
                 fontSize: 18 + "px",
-                fontFamily: "Poppins",
               }}
             >
               Persons
@@ -230,15 +214,13 @@ class Productdetail extends Component {
               <div
                 className="col-6"
                 style={{
-                  width: 228 + "px",
                   height: 40 + "px",
                 }}
               >
                 <img
                   style={{
-                    marginTop: 5 + "px",
-                    marginLeft: 5 + "px",
                     float: "left",
+                    marginTop: 5 + "px",
                   }}
                   src={man}
                   alt=""
@@ -246,8 +228,6 @@ class Productdetail extends Component {
                 <div
                   style={{
                     float: "left",
-                    width: 59 + "px",
-                    height: 33 + "px",
                   }}
                 >
                   <p
@@ -265,14 +245,12 @@ class Productdetail extends Component {
                 </div>
                 <div
                   style={{
-                    marginLeft: 20 + "px",
-                    width: 40 + "%",
-                    height: 40 + "px",
-                    float: "left",
+                    float: "right",
+                    padding: 5 + "px",
                     borderRadius: 50 + "px",
                     backgroundColor: "#F2F2F2",
                     textAlign: "center",
-                    fontFamily: "Poppins",
+                    verticalAlign: "middle",
                   }}
                 >
                   <label
@@ -288,8 +266,8 @@ class Productdetail extends Component {
                       color: "#E5641c",
                       fontSize: 18 + "px",
                       fontWeight: "bold",
-                      marginRight: 11 + "px",
-                      marginLeft: 11 + "px",
+                      marginRight: 10 + "px",
+                      marginLeft: 10 + "px",
                     }}
                   >
                     01
@@ -307,7 +285,6 @@ class Productdetail extends Component {
               <div
                 className="col-6"
                 style={{
-                  width: 251 + "px",
                   height: 40 + "px",
                 }}
               >
@@ -322,7 +299,6 @@ class Productdetail extends Component {
                 <div
                   style={{
                     float: "left",
-                    width: 33 + "%",
                     height: 33 + "px",
                   }}
                 >
@@ -341,10 +317,8 @@ class Productdetail extends Component {
                 </div>
                 <div
                   style={{
-                    marginLeft: 20 + "px",
-                    width: 40 + "%",
-                    height: 40 + "px",
-                    float: "left",
+                    float: "right",
+                    padding: 5 + "px",
                     borderRadius: 50 + "px",
                     backgroundColor: "#F2F2F2",
                     textAlign: "center",
@@ -363,8 +337,8 @@ class Productdetail extends Component {
                       color: "#E5641c",
                       fontSize: 18 + "px",
                       fontWeight: "bold",
-                      marginRight: 11 + "px",
-                      marginLeft: 11 + "px",
+                      marginRight: 10 + "px",
+                      marginLeft: 10 + "px",
                     }}
                   >
                     01
@@ -387,7 +361,6 @@ class Productdetail extends Component {
               height: 131 + "px",
               marginBottom: 30 + "px",
               borderRadius: 10 + "px",
-              fontFamily: "Poppins",
             }}
           >
             <div
@@ -400,18 +373,12 @@ class Productdetail extends Component {
               <div
                 className="col-6"
                 style={{
-                  width: 251 + "px",
                   height: 40 + "px",
                 }}
               >
                 <img
                   style={{
-                    marginTop: 5 + "px",
-                    marginLeft: 5 + "px",
-                    marginRight: 5 + "px",
                     float: "left",
-                    width: 40 + "px",
-                    height: 32 + "px",
                   }}
                   src={calendar}
                   alt=""
@@ -419,7 +386,6 @@ class Productdetail extends Component {
                 <div
                   style={{
                     float: "left",
-                    width: 173 + "px",
                     height: 32 + "px",
                   }}
                 >
@@ -443,7 +409,6 @@ class Productdetail extends Component {
           <div
             className="card"
             style={{
-              height: 212 + "px",
               marginBottom: 30 + "px",
               borderRadius: 10 + "px",
             }}
@@ -459,18 +424,12 @@ class Productdetail extends Component {
                 <div
                   className="col-6"
                   style={{
-                    width: 228 + "px",
                     height: 40 + "px",
                   }}
                 >
                   <img
                     style={{
-                      marginTop: 5 + "px",
-                      marginLeft: 5 + "px",
-                      marginRight: 5 + "px",
                       float: "left",
-                      width: 32 + "px",
-                      height: 32 + "px",
                     }}
                     src={breakfast}
                     alt=""
@@ -478,7 +437,6 @@ class Productdetail extends Component {
                   <div
                     style={{
                       float: "left",
-                      width: 37 + "%",
                       height: 33 + "px",
                     }}
                   >
@@ -497,8 +455,7 @@ class Productdetail extends Component {
                   </div>
                   <div
                     style={{
-                      marginLeft: 20 + "px",
-                      width: 37 + "%",
+                      padding: 5 + "px",
                       height: 40 + "px",
                       float: "left",
                       borderRadius: 50 + "px",
@@ -519,8 +476,8 @@ class Productdetail extends Component {
                         color: "#E5641c",
                         fontSize: 18 + "px",
                         fontWeight: "bold",
-                        marginRight: 11 + "px",
-                        marginLeft: 11 + "px",
+                        marginRight: 10 + "px",
+                        marginLeft: 10 + "px",
                       }}
                     >
                       01
@@ -538,17 +495,12 @@ class Productdetail extends Component {
                 <div
                   className="col-6"
                   style={{
-                    width: 228 + "px",
                     height: 40 + "px",
                   }}
                 >
                   <img
                     style={{
-                      marginTop: 5 + "px",
-                      marginLeft: 5 + "px",
-                      marginRight: 5 + "px",
                       float: "left",
-                      width: 32 + "px",
                       height: 32 + "px",
                     }}
                     src={lunch}
@@ -557,7 +509,6 @@ class Productdetail extends Component {
                   <div
                     style={{
                       float: "left",
-                      width: 37 + "%",
                       height: 33 + "px",
                     }}
                   >
@@ -576,13 +527,11 @@ class Productdetail extends Component {
                   </div>
                   <div
                     style={{
-                      marginLeft: 20 + "px",
-                      width: 37 + "%",
-                      height: 40 + "px",
-                      float: "left",
+                      float: "right",
                       borderRadius: 50 + "px",
                       backgroundColor: "#F2F2F2",
                       textAlign: "center",
+                      padding: 5 + "px",
                     }}
                   >
                     <label
@@ -598,8 +547,8 @@ class Productdetail extends Component {
                         color: "#E5641c",
                         fontSize: 18 + "px",
                         fontWeight: "bold",
-                        marginRight: 11 + "px",
-                        marginLeft: 11 + "px",
+                        marginRight: 10 + "px",
+                        marginLeft: 10 + "px",
                       }}
                     >
                       01
@@ -619,18 +568,12 @@ class Productdetail extends Component {
                 <div
                   className="col-6"
                   style={{
-                    width: 228 + "px",
                     height: 40 + "px",
                   }}
                 >
                   <img
                     style={{
-                      marginTop: 5 + "px",
-                      marginLeft: 5 + "px",
-                      marginRight: 5 + "px",
                       float: "left",
-                      width: 32 + "px",
-                      height: 32 + "px",
                     }}
                     src={snacks}
                     alt=""
@@ -638,7 +581,6 @@ class Productdetail extends Component {
                   <div
                     style={{
                       float: "left",
-                      width: 37 + "%",
                       height: 33 + "px",
                     }}
                   >
@@ -657,10 +599,8 @@ class Productdetail extends Component {
                   </div>
                   <div
                     style={{
-                      marginLeft: 20 + "px",
-                      width: 37 + "%",
-                      height: 40 + "px",
-                      float: "left",
+                      padding: 5 + "px",
+                      float: "right",
                       borderRadius: 50 + "px",
                       backgroundColor: "#F2F2F2",
                       textAlign: "center",
@@ -679,8 +619,8 @@ class Productdetail extends Component {
                         color: "#E5641c",
                         fontSize: 18 + "px",
                         fontWeight: "bold",
-                        marginRight: 11 + "px",
-                        marginLeft: 11 + "px",
+                        marginRight: 10 + "px",
+                        marginLeft: 10 + "px",
                       }}
                     >
                       01
@@ -698,18 +638,12 @@ class Productdetail extends Component {
                 <div
                   className="col-6"
                   style={{
-                    width: 228 + "px",
                     height: 40 + "px",
                   }}
                 >
                   <img
                     style={{
-                      marginTop: 5 + "px",
-                      marginLeft: 5 + "px",
-                      marginRight: 5 + "px",
                       float: "left",
-                      width: 32 + "px",
-                      height: 32 + "px",
                     }}
                     src={dinner}
                     alt=""
@@ -717,7 +651,6 @@ class Productdetail extends Component {
                   <div
                     style={{
                       float: "left",
-                      width: 37 + "%",
                       height: 33 + "px",
                     }}
                   >
@@ -736,10 +669,8 @@ class Productdetail extends Component {
                   </div>
                   <div
                     style={{
-                      marginLeft: 20 + "px",
-                      width: 37 + "%",
-                      height: 40 + "px",
-                      float: "left",
+                      padding: 5 + "px",
+                      float: "right",
                       borderRadius: 50 + "px",
                       backgroundColor: "#F2F2F2",
                       textAlign: "center",
@@ -758,8 +689,8 @@ class Productdetail extends Component {
                         color: "#E5641c",
                         fontSize: 18 + "px",
                         fontWeight: "bold",
-                        marginRight: 11 + "px",
-                        marginLeft: 11 + "px",
+                        marginRight: 10 + "px",
+                        marginLeft: 10 + "px",
                       }}
                     >
                       01

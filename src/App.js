@@ -1,14 +1,13 @@
 // import './App.css';
 
-import Productdetail from "./component/product/Productdetail";
+// import Productdetail from "./component/product/Productdetail";
+import Detail from "./component/product/Detail";
 
 function App() {
   return (
-    <div className="App">
-      <div className="container-fluid">
-        <Productdetail />
+      <div className="App">
+        <Detail />
       </div>
-    </div>
   );
 }
 

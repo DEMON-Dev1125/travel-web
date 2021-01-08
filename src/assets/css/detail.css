@@ -2,15 +2,36 @@
     font-family: "Poppins" !important;
 }
 
+.logo {
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    margin-left: 3%;
+    margin-top: 10px;
+}
+
 .sidebar {
     background-image: url("../img/product-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+@media only screen and (max-width: 990px){
+    .left-scal {
+        position:absolute !important;
+        height: 100% !important;
+    }
+    .right-scal{
+        position: absolute!important;
+        top:100%!important;
+    }
+}
+
 .detail-content {
+    height: auto;
     position: absolute;
-    bottom: 88px;
+    bottom: 5%;
 }
 
 .place-name {
@@ -34,10 +55,11 @@
 }
 
 .place-content {
+    padding: 35px 15px 35px 15px;
     margin-left: 12px;
     background-color: #F3FFF8;
     width: 85%;
-    height: 126px;
+    height: auto;
     border-radius: 20px;
     box-shadow: 0 0 0 12px rgba(255, 255, 255, 0.5);
 }
@@ -46,12 +68,23 @@
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
+    padding: 0;
+    margin: 0;
 }
 
 .pl-detail {
     font-size: 18px;
     line-height: 27px;
     font-weight: 600;
+    padding: 0;
+    margin: 0;
+}
+
+.pl-review {
+    font-size: 18px;
+    line-height: 27px;
+    padding: 0;
+    margin: 0;
 }
 
 .top-bar {
@@ -59,7 +92,7 @@
     display: flex;
     flex-direction: row !important;
     font-size: 18px;
-    margin-bottom: 35px !important;
+    /* margin-bottom: 35px !important; */
 }
 
 .avatar-img {
